@@ -1,6 +1,6 @@
-var a = "Hello Geeks"
-var b = 10
-var c = 12
+var a = "Hello "
+let b = 45
+const c = 9
 var d = b + c
 
 console.log(a);
