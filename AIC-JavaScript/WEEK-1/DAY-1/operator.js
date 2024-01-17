@@ -1,7 +1,7 @@
 var a = "Hello Geeks"
-var b = 10;
-var c = 12;
-var d = b + c;
+var b = 10
+var c = 12
+var d = b + c
 
 console.log(a);
 console.log(b);
