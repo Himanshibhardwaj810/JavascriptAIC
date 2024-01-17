@@ -1,9 +1,27 @@
-var a = "Hello "
-let b = 45
-const c = 9
-var d = b + c
+//Arithmetic operators
+let x= 23
+let y=4
+console.log(x+y)
+console.log(x-y)
+console.log(x*y)
+console.log(x/y)
+console.log(x%y)
+console.log(x**y)
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+//Comparison operators
+let k=45
+let l=57
+console.log(x>y)
+console.log(x==y)
+console.log(x===y)
+console.log(x!=y)
+
+//bitwise operators
+let c=5
+let d=2
+console.log(x&y)
+console.log(x|y)
+console.log(x>>y)
+console.log(x<<y)
+
+
