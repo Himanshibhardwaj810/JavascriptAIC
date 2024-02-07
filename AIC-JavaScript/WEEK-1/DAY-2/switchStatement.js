@@ -1,5 +1,6 @@
 let a = 5, b = 9
 let choice = 7
+
 switch (choice) {
     case 1:
         console.log(a + b);

@@ -11,7 +11,7 @@ console.log(human);
 const himanshi = new Object();
 himanshi.firstName = "Himanshi";
 himanshi.lastName = "Bhardwaj";
-himanshi.age = 19;
+himanshi.age =19;
 himanshi.eyeColor = " brown";
 console.log(himanshi.firstName,himanshi.lastName);
 //another way of showcasing object
