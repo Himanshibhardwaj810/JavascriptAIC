@@ -1,0 +1,18 @@
+ p{
+    color: #5849e3;
+ }
+h1{
+    color:black;
+}
+.para{
+    font-size: 24px;
+    color: rgb(122, 43, 219)
+}
+#data{
+    font-size: 20px;
+    color: green;
+    text-decoration: dashed;
+}
+#b1{
+    color: #49bae3;
+}
