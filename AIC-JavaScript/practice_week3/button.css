@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    color: white;
+    background-color: rgb(48, 48, 235);
+    margin-left: 50vh;
+    height: 30px;
+    width: 90px;
+    margin-top:1px;
+}
+#click1{
+    margin-left: 10vh;
+    margin-top:1px;
+}
