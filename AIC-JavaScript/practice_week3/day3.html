@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Listener Example</title>
+</head>
+<body>
+
+<button id="myButton">Click Me!</button>
+
+<script>
+// Select the button element
+const button = document.getElementById('myButton');
+
+// Add an event listener for the 'click' event
+button.addEventListener('click', function() {
+    // This function will be executed when the button is clicked
+    alert('Button clicked!!');
+    
+});
+</script>
+
+</body>
+</html>
+<!-- Accessing different elements of html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accessing Elements Example</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Hello, Everyone!I am Himanshi</h1>
+        <p class="paragraph">This is paragraph 1.</p>
+        <button id="myButton">Exploring Dom</button>
+    </div>
+    <script>
+        // Accessing elements by ID
+const container = document.getElementById('container');
+console.log("Element with ID 'container':", container);
+
+// Accessing elements by tag name
+const headings = document.getElementsByTagName('h1');
+console.log("Elements with tag name 'h1':", headings);
+
+// Accessing elements by class name
+const paragraphs = document.getElementsByClassName('paragraph');
+console.log("Elements with class name 'paragraph':", paragraphs);
+
+// Accessing elements using querySelector
+const button3 = document.querySelector('#myButton');
+console.log("Element with selector '#myButton':", button3);
+
+// Accessing elements using querySelectorAll
+const allParagraphs = document.querySelectorAll('.paragraph');
+console.log("All elements with selector '.paragraph':", allParagraphs);
+
+    </script>
+</body>
+</html>
+
+<!-- Changing TExt content -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example: Creating Elements</title>
+</head>
+<body>
+    <div id="container">
+        <h2>List of Items</h2>
+        <ul id="itemList"></ul>
+        <button id="button6">Add Item</button>
+    </div>
+
+    <script>
+        let itemId = 1;
+
+        // Select the button element
+        const button7 = document.getElementById('button6');
+
+        // Add event listener for click event
+        button7.addEventListener('click', function() {
+            addItem();
+        });
+
+        function addItem() {
+            const itemList = document.getElementById('itemList');
+            const newItem = document.createElement('li');
+            newItem.textContent = 'Item ' + itemId++;
+            itemList.appendChild(newItem);
+        }
+    </script>
+</body>
+</html>
+
+<!-- Changing styles -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Example: Changing Styles</title>
+</head>
+<body>
+    <div id="box" style="width: 100px; height: 100px; background-color: red;"></div>
+    <button onclick="changeColor()">Change Color</button>
+
+    <script>
+        function changeColor() {
+            const box = document.getElementById('box');
+            box.style.backgroundColor = 'blue';
+        }
+    </script>
+</body>
+</html>
+
+
